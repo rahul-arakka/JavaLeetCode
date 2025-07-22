@@ -1,4 +1,5 @@
 class Solution {
+
     public boolean isValid(String s) {
         int len = s.length();
         if(s.length()%2 != 0)   return false;
