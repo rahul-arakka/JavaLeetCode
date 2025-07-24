@@ -3,6 +3,11 @@
 
 class Solution {
     public int strStr(String big, String sml) {
+        //  Solution 1:
+//        return big.indexOf(sml);
+
+
+        // Solution 2:
         // int j=sml.length()-1, index=-1;
         // if(big.length() == sml.length())    return 0;
         // for(int i=big.length()-1;i>=0;i--){
